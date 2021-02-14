@@ -1,0 +1,636 @@
+body{
+  margin:0px;
+}
+
+.page1 {
+  /* The image used */
+  background-image: url("img/pg1-bg.png");
+
+  /* Full height 
+  what is the difference between vh and % ?
+  https://stackoverflow.com/questions/544010/whats-the-difference-between-an-id-and-a-class
+  */
+  height: 100vh;
+
+  /* if child is bigger than parent, it will hide automatically */
+  overflow: hidden;
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+.text1{
+  color: #ff4a4a;
+  display: block;
+  max-width: 80%;
+  position: relative;
+  left:50%; 
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size:1.2em; /* 1rem=16px */
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align:center;
+  line-height: 2.6em;
+
+  
+}
+
+.text h1{
+  display: block;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 1px 1px 0 #000;
+  font-size:2rem;
+  font-weight: 500px;
+  margin-top:0;
+  margin-bottom:1rem;
+  line-height: 2.5em;
+}
+
+#tri{
+ width:45px;
+}
+
+.page2{
+    /* The image used */
+    background-image: url("img/pg2-bg2.png");
+
+    /* Full height 
+    what is the difference between vh and % ?
+    https://stackoverflow.com/questions/544010/whats-the-difference-between-an-id-and-a-class
+    */
+    height: 100vh;
+  
+    /* if child is bigger than parent, it will hide automatically */
+    overflow: hidden;
+  
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+
+
+.text2{
+  color: #ff4a4a;
+  display: block;
+  position: relative;
+  top: 45%;
+  left:30%;
+  width: 60%;
+  font-size:1.2em; /* 1rem=16px */
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align:center;
+  max-width:60%;
+}
+
+.text2-p{
+  font-size: 15px;
+  text-align:left;
+  line-height: 1.5em;
+  color: black;
+}
+
+.text2 h3{
+  text-align: right;
+  display: block;
+  font-size:25px;
+  font-weight: 300px;
+  margin-top:0;
+  margin-bottom:1rem;
+}
+
+
+
+.page3{
+
+  background-image: url("img/pg3-bg.png");
+  height: 100vh;
+  width: 100vw;
+
+  /* if child is bigger than parent, it will hide automatically */
+  overflow: hidden;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: scroll;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.page3-left{
+  position:relative;
+  float:left;
+  height:100%;
+  width:1500px;
+  max-width:50%;
+  top:60%;
+}
+
+.text3{
+ margin-left:67px;
+ font-size:1.2em; /* 1rem=16px */
+ font-family: 'Source Sans Pro', sans-serif;
+}
+
+.pg3-p{
+  margin:0px;
+  line-height:5px;
+}
+
+.box0{
+  color:black;
+  margin: 30px 0px 30px 0px;
+}
+
+
+
+.box1 {
+  background-color: #FF4A4A;
+  color: white;
+  padding: 15px 15px 15px 15px;
+  width:330px;
+  margin-bottom: 15px;
+}
+
+.box1-img {
+  width: 600px;
+  display: none;
+  position:fixed;
+  left:80px;
+  top:50px;
+  background-color:rgba(255, 255, 255, 0.781);
+}
+
+.box2-img {
+  width: 600px;
+  display: none;
+  position:fixed;
+  left:80px;
+  top:50px;
+  background-color:rgba(255, 255, 255, 0.781);
+}
+
+
+.box3-img {
+  width: 600px;
+  display: none;
+  position:fixed;
+  left:80px;
+  top:50px;
+  background-color:rgba(255, 255, 255, 0.781);
+}
+
+
+/* 
+.box1-img{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+
+.box1:hover .box1-img {
+  display: block;
+}
+
+.box2:hover .box2-img {
+  display: block;
+}
+
+.box3:hover .box3-img {
+  display: block;
+}
+
+
+.box2 {
+  background-color: #1ACE6D;
+  color: white;
+  padding: 15px 15px 15px 15px;
+  width:330px;
+  margin-bottom: 15px;
+}
+
+.box3 {
+  background-color: #4A90FF;
+  color: white;
+  padding: 15px 15px 15px 15px;
+  width:330px;
+}
+
+.page3-bar{
+  float:left;
+  width:4%;
+  height:100vh;
+}
+
+
+
+.year11{
+  height:12.5%;
+  vertical-align: middle;
+}
+
+.year12{
+  height:12.5%;
+  vertical-align: middle;
+}
+.year13{
+  height:12.5%;
+  vertical-align: middle;
+}
+.year14{
+  height:12.5%;
+  vertical-align: middle;
+}
+.year15{
+  height:12.5%;
+  vertical-align: middle;
+}
+.year16{
+  height:12.5%;
+  vertical-align: middle;
+}
+.year17{
+  height:12.5%;
+  vertical-align: middle;
+}
+.year18{
+  height:12.5%;
+  vertical-align: middle;
+}
+
+.page3-right{
+  position:relative;
+  height:100vh;
+  float:left;
+  width: 800px;
+  max-width:43%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.text4{
+  font-size:1em; /* 1rem=16px */
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  color: #383838;
+}
+
+.text4-normal{
+  float:left;
+}
+
+.hover-r11{
+  float:left;
+}
+
+.hover-b11{
+  float:left;
+}
+
+.hover-g11{
+  float:left;
+}
+
+.hover-r12{
+  float:left;
+}
+
+.hover-b12{
+  float:left;
+}
+
+.hover-g12{
+  float:left;
+}
+
+.hover-r13{
+  float:left;
+}
+.hover-b13{
+  float:left;
+}
+.hover-g13{
+  float:left;
+}
+
+
+.hover-r14{
+  float:left;
+}
+.hover-b14{
+  float:left;
+}
+.hover-g14{
+  float:left;
+}
+
+.hover-r15{
+  float:left;
+}
+.hover-b15{
+  float:left;
+}
+.hover-g15{
+  float:left;
+}
+
+
+.hover-r16{
+  float:left;
+}
+.hover-b16{
+  float:left;
+}
+.hover-g16{
+  float:left;
+}
+
+.hover-r17{
+  float:left;
+}
+.hover-b17{
+  float:left;
+}
+.hover-g17{
+  float:left;
+}
+
+.hover-r18{
+  float:left;
+}
+.hover-b18{
+  float:left;
+}
+.hover-g18{
+  float:left;
+}
+
+
+
+
+
+
+
+img .p1-img {
+  height: auto;
+  width: 100px;
+  display: none
+}
+
+#p1:hover img {
+  display: block;
+}
+
+
+
+
+
+.page4{
+
+  background-color:white;
+  height: 100vh;
+
+  /* if child is bigger than parent, it will hide automatically */
+  overflow: hidden;
+
+  /* Create the parallax scrolling effect */
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.page-top{
+  width:100vw;
+  height:10px;
+  background-color: #383838;
+}
+
+.page4-left{
+  float:left;
+  width:700px;
+  max-width:47%;
+  margin-top: 200px;
+  margin-left: 7%;
+  margin-right: 2%;
+}
+
+/* .page4-line{
+  float:left;
+  margin:0px;
+  width: 29.7px;
+  background-color:#383838;
+  height:100vh;
+} */
+
+
+.text5{
+  float:left;
+  width:35%;
+  margin-top:270px;
+  margin-right:70px;
+  font-size:0.8em; /* 1rem=16px */
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+}
+
+
+.page5{
+
+  background-color:white;
+  height: 100vh;
+
+  /* if child is bigger than parent, it will hide automatically */
+  overflow: hidden;
+
+  /* Create the parallax scrolling effect */
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.page5-left{
+  float:left;
+  width:700px;
+  max-width:47%;
+  margin-top: 110px;
+  margin-left: 8%;
+  margin-right: 2%;
+}
+
+svg{
+  width:550px;
+}
+
+path{
+  stroke-width:0.5px;
+}
+
+svg text{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:30px; 
+  width:150px;
+  height: 400px;
+  
+}
+
+path#r-1{
+  fill: #FF313F;
+  transition: all 0.5s;
+}
+path#r-2{
+  fill: #EBA7A7;
+  transition: all 0.5s;
+}
+
+svg #text-r-1 {display: none;}
+svg #g1:hover #text-r-1 {display: block;}
+svg #g1:hover path#r-1 {fill:#383838;}
+
+svg #text-r-2 {display: none;}
+svg #g2:hover #text-r-2 {display: block;}
+svg #g2:hover path#r-2 {fill:#383838;}
+
+.hhh {visibility:hidden;}
+
+
+
+path#g-1{
+  fill: #97EABD;
+  transition: all 0.5s;
+}
+svg #text-g-1 {display: none;}
+svg #g3:hover #text-g-1 {display: block;}
+svg #g3:hover path#g-1 {fill:#383838;}
+
+
+svg #text-0 {display: block;}
+svg #g3:hover #text-0 {display:none;}
+
+path#g-2{
+  fill: #1ACE6D;
+  transition: all 0.5s;
+}
+svg #text-g-2 {display: none;}
+svg #g4:hover #text-g-2 {display: block;}
+svg #g4:hover path#g-2 {fill:#383838;}
+
+
+
+
+path#b-0{
+  fill: #358FFF;
+  transition: all 0.5s;
+}
+svg #text-b-0 {display: none;}
+svg #g5:hover #text-b-0 {display: block;}
+svg #g5:hover path#b-0 {fill:#383838;}
+
+path#b-9{
+  fill: #96C4FC;
+  transition: all 0.5s;
+}
+svg #text-b-9 {display: none;}
+svg #g6:hover #text-b-9 {display: block;}
+svg #g6:hover path#b-9 {fill:#383838;}
+
+path#b-1{
+  fill: #133F76;
+  transition: all 0.5s;
+}
+svg #text-b-1 {display: none;}
+svg #g7:hover #text-b-1 {display: block;}
+svg #g7:hover path#b-1 {fill:#383838;}
+
+path#b-2{
+  fill: #15748F;
+  transition: all 0.5s;
+}
+svg #text-b-2 {display: none;}
+svg #g8:hover #text-b-2 {display: block;}
+svg #g8:hover path#b-2 {fill:#383838;}
+
+path#b-3{
+  fill: #4779B8;
+  transition: all 0.5s;
+}
+svg #text-b-3 {display: none;}
+svg #g9:hover #text-b-3 {display: block;}
+svg #g9:hover path#b-3 {fill:#383838;}
+
+path#b-4{
+  fill: #9E64F4;
+  transition: all 0.5s;
+}
+svg #text-b-4 {display: none;}
+svg #g10:hover #text-b-4 {display: block;}
+svg #g10:hover path#b-4 {fill:#383838;}
+
+path#b-5{
+  fill: #762BE7;
+  transition: all 0.5s;
+}
+svg #text-b-5 {display: none;}
+svg #g11:hover #text-b-5 {display: block;}
+svg #g11:hover path#b-5 {fill:#383838;}
+
+path#b-6{
+  fill: #75119E;
+  transition: all 0.5s;
+}
+svg #text-b-6 {display: none;}
+svg #g12:hover #text-b-6 {display: block;}
+svg #g12:hover path#b-6 {fill:#383838;}
+
+path#b-7{
+  fill: #447462;
+  transition: all 0.5s;
+}
+svg #text-b-7 {display: none;}
+svg #g13:hover #text-b-7 {display: block;}
+svg #g13:hover path#b-7 {fill:#383838;}
+
+path#b-8{
+  fill: #4CA887;
+  transition: all 0.5s;
+}
+svg #text-b-8 {display: none;}
+svg #g14:hover #text-b-8 {display: block;}
+svg #g14:hover path#b-8 {fill:#383838;}
+
+
+.text6{
+  float:left;
+
+  width:500px;
+  margin-top:270px;
+  margin-right:70px;
+  font-size:0.8em; /* 1rem=16px */
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+}
